@@ -8,7 +8,7 @@ double magnitude(Complex c) {
 
 double phase(Complex c) {
 	double ph = atan(c.imag/c.real);
-	ph = ph (180/M_PI);
+	ph = ph * (180/M_PI);
 	return (ph<0) ? -ph : ph;
 }
 
