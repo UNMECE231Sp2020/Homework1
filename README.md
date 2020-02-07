@@ -6,14 +6,14 @@ You are to update a library that is a simple complex library. You are going to c
 ### In my_complex.h
 You are going to create two function prototypes:
 
-    A function that will not return anything and take three inputs: a function pointer that returns a complex struct, and two complex structs, that represent the inputs for the function pointer. Should print result of function called.
-    A function that will not return anything and take two inputs: a function pointer that returns a double and a complex struct, that represents the input for the function pointer. Should print result of function called.
+    A function that will not return anything and take three inputs: a function pointer that returns a complex struct, and two complex structs, that represent the inputs for the function pointer. 
+    A function that will not return anything and take two inputs: a function pointer that returns a double and has a complex struct input, and another input that is the double to be the argument in the function pointer. 
 ### In complex_fns.c
 You are going to be:
 
     Modifying complex_div so that there is no division by zero 
-    Create a function handler that takes a pointer to a function and two complex structs as an input. It should call the function. Should handle the add, sub, mult, and div functions.
-    Another function handler but handles magnitude and phase functions only.
+    Create a function handler that takes a pointer to a function and two complex structs as an input. It should call the function. Should handle the add, sub, mult, and div functions. Should print result of function called.
+    Another function handler but handles magnitude and phase functions only. Should print result of function called.
     
 ### In main.c
 There are two complex numbers that are given to you, you must:
